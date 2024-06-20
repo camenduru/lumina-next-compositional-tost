@@ -201,6 +201,7 @@ def generate(command):
             samples.clamp_(0.0, 1.0)
 
             img = to_pil_image(samples[0].float())
+            img.save("/content/out.png")
             return img
 
         except Exception:
