@@ -14,7 +14,7 @@ RUN apt update -y && add-apt-repository -y ppa:git-core/ppa && apt update -y && 
 USER camenduru
 
 RUN pip install -q opencv-python imageio imageio-ffmpeg ffmpeg-python av runpod \
-    xformers==0.0.25 git+https://github.com/camenduru/Lumina-T2X@dev && \
+    xformers==0.0.25 flash_attn==2.5.9.post1 git+https://github.com/camenduru/Lumina-T2X@dev && \
     git clone -b dev https://github.com/camenduru/Lumina-T2X /content/Lumina-T2X && \
     aria2c --console-log-level=error -c -x 16 -s 16 -k 1M  https://huggingface.co/ckpt/Lumina-Next-SFT/resolve/main/consolidated_ema.00-of-01.safetensors -d /content/Lumina-T2X/models -o consolidated_ema.00-of-01.safetensors && \
     aria2c --console-log-level=error -c -x 16 -s 16 -k 1M  https://huggingface.co/ckpt/Lumina-Next-SFT/resolve/main/model_args.pth -d /content/Lumina-T2X/models -o model_args.pth
