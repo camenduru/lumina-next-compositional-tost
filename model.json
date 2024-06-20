@@ -1,0 +1,18 @@
+{   
+    "cap1": "A colossal ancient robot stands amidst the ruins of a forgotten civilization. Its metallic body is covered in intricate carvings and symbols, showing signs of age and wear.",
+    "cap2": "A colossal ancient robot stands amidst the ruins of a forgotten civilization. Its metallic body is covered in intricate carvings and symbols, showing signs of age and wear. ",
+    "cap3": "A winding countryside path meanders through rolling green hills, lined with wildflowers and tall grasses swaying in the breeze.",
+    "cap4": "A quaint countryside cottage bathed in the warm glow of the setting sun. The small house is surrounded by a lush garden filled with blooming flowers and tall, swaying grass.",
+    "neg_cap": "",
+    "resolution": "2048x1024 (4x1 Grids)",
+    "num_sampling_steps": 30,
+    "cfg_scale": 4.0,
+    "solver": "midpoint",
+    "t_shift": 4,
+    "seed": 0,
+    "scaling_method": "Time-aware",
+    "scaling_watershed": 0.3,
+    "proportional_attn": true,
+    "width": 2048,
+    "height": 1024
+}

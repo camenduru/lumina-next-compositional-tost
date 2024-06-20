@@ -1,0 +1,190 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "Lumina-T2X: Transforming Text into Any Modality, Resolution, and Duration via Flow-based Large Diffusion Transformers",
+      "author": "Peng Gao, Le Zhuo, Dongyang Liu, Ruoyi Du, Xu Luo, Longtian Qiu, Yuhang Zhang, Chen Lin, Rongjie Huang, Shijie Geng, Renrui Zhang, Junlin Xi, Wenqi Shao, Zhengkai Jiang, Tianshuo Yang, Weicai Ye, He Tong, Jingwen He, Yu Qiao, Hongsheng Li",
+      "code": "https://github.com/camenduru/Lumina-T2X",
+      "paper": "https://arxiv.org/abs/2405.05945",
+      "tags": [
+        "Text to Image"
+      ],
+      "widget": "readme"
+    },
+    "cap1": {
+      "type": "string",
+      "description": "Prompt 1",
+      "widget": "textarea"
+    },
+    "cap2": {
+      "type": "string",
+      "description": "Prompt 2",
+      "widget": "textarea"
+    },
+    "cap3": {
+      "type": "string",
+      "description": "Prompt 3",
+      "widget": "textarea"
+    },
+    "cap4": {
+      "type": "string",
+      "description": "Prompt 4",
+      "widget": "textarea"
+    },
+    "neg_cap": {
+      "type": "string",
+      "description": "Negative Prompt",
+      "widget": "textarea"
+    },
+    "resolution": {
+      "type": "string",
+      "widget": "select",
+      "description": "Resolution",
+      "oneOf": [
+        {
+          "description": "2048x1024 (4x1 Grids)",
+          "enum": [
+            "2048x1024 (4x1 Grids)"
+          ]
+        },
+        {
+          "description": "2560x1024 (4x1 Grids)",
+          "enum": [
+            "2560x1024 (4x1 Grids)"
+          ]
+        },
+        {
+          "description": "3072x1024 (4x1 Grids)",
+          "enum": [
+            "3072x1024 (4x1 Grids)"
+          ]
+        },
+        {
+          "description": "1024x1024 (2x2 Grids)",
+          "enum": [
+            "1024x1024 (2x2 Grids)"
+          ]
+        },
+        {
+          "description": "1536x1536 (2x2 Grids)",
+          "enum": [
+            "1536x1536 (2x2 Grids)"
+          ]
+        },
+        {
+          "description": "2048x2048 (2x2 Grids)",
+          "enum": [
+            "2048x2048 (2x2 Grids)"
+          ]
+        },
+        {
+          "description": "1024x2048 (1x4 Grids)",
+          "enum": [
+            "1024x2048 (1x4 Grids)"
+          ]
+        },
+        {
+          "description": "1024x2560 (1x4 Grids)",
+          "enum": [
+            "1024x2560 (1x4 Grids)"
+          ]
+        },
+        {
+          "description": "1024x3072 (1x4 Grids)",
+          "enum": [
+            "1024x3072 (1x4 Grids)"
+          ]
+        }
+      ],
+      "default": "2048x1024 (4x1 Grids)"
+    },
+    "num_sampling_steps": {
+      "type": "integer",
+      "description": "Num Sampling Steps"
+    },
+    "cfg_scale": {
+      "type": "number",
+      "description": "CFG Scale"
+    },
+    "solver": {
+      "type": "string",
+      "widget": "select",
+      "description": "Solver",
+      "oneOf": [
+        {
+          "description": "euler",
+          "enum": [
+            "euler"
+          ]
+        },
+        {
+          "description": "midpoint",
+          "enum": [
+            "midpoint"
+          ]
+        },
+        {
+          "description": "rk4",
+          "enum": [
+            "rk4"
+          ]
+        }
+      ],
+      "default": "midpoint"
+    },
+    "t_shift": {
+      "type": "number",
+      "description": "T Shift"
+    },
+    "seed": {
+      "type": "number",
+      "description": "Seed (0 = random)"
+    },
+    "scaling_method": {
+      "type": "string",
+      "widget": "select",
+      "description": "Scaling Method",
+      "oneOf": [
+        {
+          "description": "Time-aware",
+          "enum": [
+            "Time-aware"
+          ]
+        },
+        {
+          "description": "None",
+          "enum": [
+            "None"
+          ]
+        }
+      ],
+      "default": "Time-aware"
+    },
+    "scaling_watershed": {
+      "type": "number",
+      "description": "Scaling Watershed"
+    },
+    "proportional_attn": {
+      "type": "boolean",
+      "description": "Scaling Watershed"
+    },
+    "width": {
+      "type": "integer",
+      "readOnly": "true",
+      "description": "Width"
+    },
+    "height": {
+      "type": "integer",
+      "readOnly": "true",
+      "description": "Height"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
