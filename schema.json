@@ -6,7 +6,7 @@
       "type": "string",
       "title": "Lumina-T2X: Transforming Text into Any Modality, Resolution, and Duration via Flow-based Large Diffusion Transformers",
       "author": "Peng Gao, Le Zhuo, Dongyang Liu, Ruoyi Du, Xu Luo, Longtian Qiu, Yuhang Zhang, Chen Lin, Rongjie Huang, Shijie Geng, Renrui Zhang, Junlin Xi, Wenqi Shao, Zhengkai Jiang, Tianshuo Yang, Weicai Ye, He Tong, Jingwen He, Yu Qiao, Hongsheng Li",
-      "code": "https://github.com/camenduru/Lumina-T2X",
+      "code": "https://github.com/Alpha-VLLM/Lumina-T2X",
       "paper": "https://arxiv.org/abs/2405.05945",
       "tags": [
         "Text to Image"
