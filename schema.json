@@ -136,7 +136,7 @@
     },
     "t_shift": {
       "type": "number",
-      "description": "T Shift"
+      "description": "Time Shift"
     },
     "seed": {
       "type": "number",
@@ -170,15 +170,113 @@
       "type": "boolean",
       "description": "Scaling Watershed"
     },
-    "width": {
+    "width_2048": {
       "type": "integer",
       "readOnly": "true",
-      "description": "Width"
+      "description": "Width",
+      "visibleIf": {
+        "/resolution": [
+          "2048x1024 (4x1 Grids)",
+          "2048x2048 (2x2 Grids)"
+        ]
+      }
     },
-    "height": {
+    "width_2560": {
       "type": "integer",
       "readOnly": "true",
-      "description": "Height"
+      "description": "Width",
+      "visibleIf": {
+        "/resolution": [
+          "2560x1024 (4x1 Grids)"
+        ]
+      }
+    },
+    "width_3072": {
+      "type": "integer",
+      "readOnly": "true",
+      "description": "Width",
+      "visibleIf": {
+        "/resolution": [
+          "3072x1024 (4x1 Grids)"
+        ]
+      }
+    },
+    "width_1024": {
+      "type": "integer",
+      "readOnly": "true",
+      "description": "Width",
+      "visibleIf": {
+        "/resolution": [
+          "1024x1024 (2x2 Grids)",
+          "1024x2048 (1x4 Grids)",
+          "1024x2560 (1x4 Grids)",
+          "1024x3072 (1x4 Grids)"
+        ]
+      }
+    },
+    "width_1536": {
+      "type": "integer",
+      "readOnly": "true",
+      "description": "Width",
+      "visibleIf": {
+        "/resolution": [
+          "1536x1536 (2x2 Grids)"
+        ]
+      }
+    },
+    "height_2048": {
+      "type": "integer",
+      "readOnly": "true",
+      "description": "Height",
+      "visibleIf": {
+        "/resolution": [
+          "2048x2048 (2x2 Grids)",
+          "1024x2048 (1x4 Grids)"
+        ]
+      }
+    },
+    "height_2560": {
+      "type": "integer",
+      "readOnly": "true",
+      "description": "Height",
+      "visibleIf": {
+        "/resolution": [
+          "1024x2560 (1x4 Grids)"
+        ]
+      }
+    },
+    "height_3072": {
+      "type": "integer",
+      "readOnly": "true",
+      "description": "Height",
+      "visibleIf": {
+        "/resolution": [
+          "1024x3072 (1x4 Grids)"
+        ]
+      }
+    },
+    "height_1024": {
+      "type": "integer",
+      "readOnly": "true",
+      "description": "Height",
+      "visibleIf": {
+        "/resolution": [
+          "2048x1024 (4x1 Grids)",
+          "2560x1024 (4x1 Grids)",
+          "3072x1024 (4x1 Grids)",
+          "1024x1024 (2x2 Grids)"
+        ]
+      }
+    },
+    "height_1536": {
+      "type": "integer",
+      "readOnly": "true",
+      "description": "Height",
+      "visibleIf": {
+        "/resolution": [
+          "1536x1536 (2x2 Grids)"
+        ]
+      }
     }
   },
   "buttons": [
