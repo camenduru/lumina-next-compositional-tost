@@ -1,12 +1,12 @@
-{   
-    "cap1": "A colossal ancient robot stands amidst the ruins of a forgotten civilization. Its metallic body is covered in intricate carvings and symbols, showing signs of age and wear.",
-    "cap2": "A colossal ancient robot stands amidst the ruins of a forgotten civilization. Its metallic body is covered in intricate carvings and symbols, showing signs of age and wear. ",
-    "cap3": "A winding countryside path meanders through rolling green hills, lined with wildflowers and tall grasses swaying in the breeze.",
-    "cap4": "A quaint countryside cottage bathed in the warm glow of the setting sun. The small house is surrounded by a lush garden filled with blooming flowers and tall, swaying grass.",
+{
+    "cap1": "Design of a hotel or chalet on the cloud, in the style of light pink, serene oceanic vistas, snailcore, playful machines, 32k UHD, made of rubber, tender depiction of nature",
+    "cap2": "Robotic eagle, 8k unreal engine render, wires and gears, photorealistic",
+    "cap3": "detailed pen and ink illustration of Boracay Island, by Herge, in the style of tin-tin comics, vibrant colors, detailed, sunny day",
+    "cap4": "detailed pen and ink illustration of Boracay Island, by Herge, in the style of tin-tin comics, vibrant colors, detailed, sunny day",
     "neg_cap": "low quality",
     "resolution": "2048x1024 (4x1 Grids)",
     "num_sampling_steps": 30,
-    "cfg_scale": 4.0,
+    "cfg_scale": 4,
     "solver": "midpoint",
     "t_shift": 4,
     "seed": 0,

@@ -8,6 +8,7 @@
       "author": "Peng Gao, Le Zhuo, Dongyang Liu, Ruoyi Du, Xu Luo, Longtian Qiu, Yuhang Zhang, Chen Lin, Rongjie Huang, Shijie Geng, Renrui Zhang, Junlin Xi, Wenqi Shao, Zhengkai Jiang, Tianshuo Yang, Weicai Ye, He Tong, Jingwen He, Yu Qiao, Hongsheng Li",
       "code": "https://github.com/Alpha-VLLM/Lumina-T2X",
       "paper": "https://arxiv.org/abs/2405.05945",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/lumina-next-compositional.ipynb",
       "tags": [
         "Text to Image"
       ],
