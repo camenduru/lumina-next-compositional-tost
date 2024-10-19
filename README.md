@@ -16,4 +16,4 @@ https://github.com/Alpha-VLLM/Lumina-T2X/blob/main/assets/lumina-next.pdf <br />
 ![Screenshot 2024-06-20 143642](https://github.com/camenduru/lumina-next-compositional-tost/assets/54370274/03ddf3f3-35d4-487c-a310-ba405d83382f)
 
 ### 🏢 Sponsor
-https://runpod.io
+[https://runpod.io](https://runpod.io?ref=iqi9iy8y)
